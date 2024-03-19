@@ -1,9 +1,0 @@
-version: '3'
-services:
-    dev_container:
-        build:
-            context: ./
-            dockerfile: ./Dockerfile
-            args:
-                - USER_ID=$USER_ID
-                - GROUP_ID=$GROUP_ID
