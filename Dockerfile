@@ -1,5 +1,7 @@
 FROM pulumi/pulumi:latest
 
+WORKDIR /workspace
+
 # Add non-root user
 ARG USERNAME=vscode
 ARG USER_UID=1000
