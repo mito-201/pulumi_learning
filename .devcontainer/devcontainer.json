@@ -8,7 +8,6 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-vscode.cpptools-extension-pack",
 				"brody715.vscode-cuelang",
 				"yzhang.markdown-all-in-one",
 				"bierner.markdown-mermaid",
