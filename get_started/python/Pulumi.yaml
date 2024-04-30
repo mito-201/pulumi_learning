@@ -3,8 +3,8 @@ runtime:
   name: python
   options:
     virtualenv: venv
-description: A minimal AWS Python Pulumi program
+description: A Python program to deploy a virtual machine on Amazon EC2
 config:
   pulumi:tags:
     value:
-      pulumi:template: aws-python
+      pulumi:template: vm-aws-python
