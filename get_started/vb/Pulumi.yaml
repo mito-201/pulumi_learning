@@ -1,0 +1,7 @@
+name: vb
+runtime: dotnet
+description: A minimal AWS VB.NET Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-visualbasic
