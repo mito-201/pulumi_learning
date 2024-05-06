@@ -1,8 +1,0 @@
-config:
-  aws:region: ap-northeast-1
-  generous-diamond-aye-aye:desiredClusterSize: "3"
-  generous-diamond-aye-aye:eksNodeInstanceType: t3.medium
-  generous-diamond-aye-aye:maxClusterSize: "6"
-  generous-diamond-aye-aye:minClusterSize: "3"
-  generous-diamond-aye-aye:vpcNetworkCidr: 10.0.0.0/16
-  pulumi:template: https://github.com/pulumi/templates/tree/master/kubernetes-aws-yaml
